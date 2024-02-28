@@ -1,0 +1,105 @@
+:root {
+    --main-screen: #0F0F0F;
+    --main-light: #6BFF71;
+    --more-button: #464646;
+    --button-color: #008605;
+    --cids-green: #626853;
+    --cids-color-white: #F1E8E0;
+    --cids-color-black: #252222;
+    --cids-color-green-blue: #8BA8A1;
+    --button-mk: #444F2A;
+    --accent-light: #9B4A00;
+    --grey-color: #808080;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.intro-section {
+    overflow: hidden;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.intro-images {
+    position: relative;
+}
+
+
+.double-xbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.green-eliipse {
+    position: absolute;
+    top: 0;
+}
+
+.intro-buttons {
+    padding: 2rem;
+}
+
+.main-section-btn-more{
+    background-color: var(--more-button);
+    color: var(--grey-color);
+    border-color: var(--main-light);
+    border-radius: 50px;
+    padding: 15px 60px;
+    margin-left: 1rem;
+}
+
+.main-section-btn-buy {
+    background-color: var(--button-color);
+    color: white;
+    border-color: var(--main-light);
+    border-radius: 50px;
+    padding: 15px 60px;
+}
+
+.all-center {
+    align-items: center;
+    height: 100%;
+}
+
+a {
+    align-items: center;
+    text-decoration: none;
+    color: var(--grey-color);
+}
+
+header, .intro-section {
+    background-color: var(--main-screen);
+}
+
+ul {
+    padding: 2rem;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+}
+
+.intro-section-h2 {
+    color: white;
+    font-size: 5rem;
+    padding: 6rem 0rem 2rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 1rem;
+    color: var(--grey-color);
+}
