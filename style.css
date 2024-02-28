@@ -10,12 +10,17 @@
     --button-mk: #444F2A;
     --accent-light: #9B4A00;
     --grey-color: #808080;
+    --icon-color: #0FA958;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+p {
+    margin: 0!important;
 }
 
 body {
@@ -103,7 +108,6 @@ header li {
 }
 
 p {
-    font-size: 1rem;
     color: var(--grey-color);
 }
 
@@ -138,4 +142,47 @@ p {
     align-items: center;
     text-decoration: none;
     color: var(--grey-color);
+}
+
+.footer-mail-section {
+    padding: 2rem 0;
+}
+
+.footer-mail-section p {
+    font-size: small;
+}
+
+.footer-input {
+    width: 100%;
+    background-color: var(--more-button);
+    border-radius: 20px;
+    padding: 8px 1rem;
+    border: 0.5px solid black;
+}
+
+.footer-end {
+    padding: 1rem 0;
+}
+
+.the-last-p {
+    font-size: x-small;
+}
+
+.footer-end ul {
+    padding: 0;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+}
+
+.footer-end ul li {
+    padding: 2px 3px;
+    list-style-type: none;
+    color: var(--icon-color);
+    font-size: small;
+}
+
+.footer-end ul li i {
+    padding: 0 2px;
+    font-size: medium;
 }
