@@ -19,6 +19,10 @@
     box-sizing: border-box;
 }
 
+.row {
+    --bs-gutter-x: 0rem!important;
+}
+
 p {
     margin: 0!important;
 }
@@ -185,4 +189,70 @@ p {
 .footer-end ul li i {
     padding: 0 2px;
     font-size: medium;
+}
+
+.games-section-header {
+    background-color: var(--main-screen);
+    background-image: url(./images/white-background.png);
+    background-size: 100%;
+    position: relative;
+}
+
+.games-section-header .container .row {
+    padding-top: 150px;
+}
+
+.game-section-main-content h1 {
+    color: #343434;
+    justify-content: end;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.games-section-header .xbox-controller {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.game-section-secondary-content p {
+    justify-content: end;
+    font-weight: bold;
+    color: #343434;
+}
+
+.games-section-main {
+    padding: 5rem 0 9rem;
+}
+
+.ptnl-section {
+    background-color: var(--main-screen);
+    padding: 7rem 0;
+}
+
+.ptnl-section h2 {
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.ptnl-section-span {
+    color: var(--button-color);
+}
+
+.ptnl-section {
+    position: relative;
+}
+
+.dual-white-controller {
+    position: absolute;
+    top: -11rem;
+    right: 0;
+}
+
+.green-ellipse-2 {
+    position: absolute;
+    top: -6rem;
+    right: 0;
 }
